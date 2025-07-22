@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-  max-width: 576px;
   margin-inline: auto;
 }
 
@@ -21,7 +20,7 @@ main ol li {
   list-style-type: lower-alpha;
 }
 main ol li:hover {
-  color: red;
+  color: blue;
 }
 
 @media screen and (min-width: 992px) {
@@ -35,4 +34,4 @@ main ol li:hover {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=base.css.map */
