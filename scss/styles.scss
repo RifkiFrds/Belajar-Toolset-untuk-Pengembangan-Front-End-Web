@@ -31,7 +31,7 @@ body {
 }
  
 .container {
-  max-width: map.get($container-breakpoints, 'sm');
+  max-width: map.get($container-breakpoints, 'sn');
   margin-inline: auto;
 }
  
