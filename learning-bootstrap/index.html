@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bootstrap</title>
+
+    <!--Link import Bootstrap-->
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <strong class="me-auto">Judul Toast</strong>
+      <small>3 menit yang lalu</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+    <div class="toast-body">
+      Proses registrasi akun Anda sudah berhasil. Silakan lakukan konfirmasi email dengan cara
+      menekan tombol "Confirm" pada email yang terkirim.
+    </div>
+  </div>
+</div>
+
+    <!-- Button Bootstrap Commpoent -->
+    <button type="button" class="btn btn-xl btn-outline-danger">Primary</button>
+
+    <!-- Alert Component -->
+    <div class="alert alert-secondary alert-dismissible" role="alert">
+      Contoh alert dalam Bootstrap dengan tombol dismiss
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+
+      <!-- Spinner Component -->
+      <div class="spinner-border" role="status"></div>
+    </div>
+  </body>
+
+  
+    <!-- Bootstrap JS v5.2.2 -->
+    <script
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      type="module"
+    ></script>
+    
+</html>
