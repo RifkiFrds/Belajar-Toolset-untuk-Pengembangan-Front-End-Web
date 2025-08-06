@@ -15,6 +15,32 @@
   <body>
     <h1>Hello, world!</h1>
 
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Munculkan modal
+</button>
+    <div class="modal" id="myModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Judul Modal</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>Ini adalah konten dari card.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <button type="button" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
@@ -43,8 +69,26 @@
       ></button>
 
       <!-- Spinner Component -->
-      <div class="spinner-border" role="status"></div>
+      <div class="spinner-grow" role="status"></div>
     </div>
+
+
+       <div class="card w-50">
+        <img
+    src="./public/rifki-formal.png"
+    class="card-img-bottom"
+    alt="Web Programming"
+  />
+      <div class="card-body">
+        <h1 class="card-titile">Baju Hijau</h1>
+        <p class="card-text">Warna Hijau Bagus</p>
+        <a href="https://rifki-profile.netlify.app" class="btn btn-danger">Detail Product</a>
+      </div>
+    </div>
+
+    <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+</div>
   </body>
 
   
