@@ -1,5 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-const toast = new bootstrap.Toast(document.getElementById('liveToast'));
-toast.show();
+const form = document.querySelector('form');
+ 
+form.addEventListener(
+  'submit',
+  (event) => {
+    if (!form.checkValidity()) {
+      event.preventDefault();
+    }
+ 
+    form.classList.add('was-validated');
+  },
+  false,
+);
